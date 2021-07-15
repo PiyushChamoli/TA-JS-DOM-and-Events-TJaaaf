@@ -131,3 +131,10 @@ i {
     font-weight: 600;
     font-size: 2.2rem;
 }
+
+.first-ul > .selected, .second-ul > .selected {
+    background-color: sienna;
+    border-radius: 5px;
+    padding: 0 1rem;
+    color: white;
+}
