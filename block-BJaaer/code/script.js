@@ -9,9 +9,7 @@ function handleSubmit(event) {
     userInfo.love = (form.elements.gender.value);
     userInfo.color = (form.elements.color.value);
     userInfo.range = (form.elements.range.value);
-    userInfo.fiction = (form.elements.fiction.checked);
-    // userInfo[non-fiction] = (form.elements);
-    userInfo.adventure = (form.elements.adventure.checked);
+    userInfo.fiction = (form.elements.drone.checked);
     userInfo.terms = (form.elements.terms.checked);
 };
 
