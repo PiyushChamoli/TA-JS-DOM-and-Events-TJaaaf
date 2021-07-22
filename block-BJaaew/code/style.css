@@ -152,3 +152,30 @@ input[type = 'text'] {
   padding: 6px 16px;
 }
 
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 15px 20px;
+}
+
+.tags li {
+  color: white;
+  background-color: black;
+  padding: 5px 13px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.tags li:hover {
+  cursor: pointer;
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.active {
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+}
